@@ -1,0 +1,1 @@
+﻿function factoriel(n){if(n > 1) { n*= factoriel(n -1); }else { n == 1; }return n;}var i = 0;while(i <=100){if(i % 2 != 0){console.log("factoriel de "+ i +" = "+ factoriel(i));}else{console.log("factoriel de "+ i +" = "+ factoriel(i));}i++;}factoriel(5);
